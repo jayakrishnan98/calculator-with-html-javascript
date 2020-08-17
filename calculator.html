@@ -16,7 +16,7 @@
             margin-left: auto;
             margin-right: auto;
             margin-top: 6%;
-            border: solid 1px;
+            border: solid 2px;
             border-color: rgb(136, 136, 136);
             border-radius: 1%;
         }
@@ -42,14 +42,32 @@
             margin-left: -17;
             margin-right: auto;
         }
-        .grid-item{
+        .nums{
             width: 30%;
             margin: .5%;
             height: 12%;
             padding: 0;
-            background: rgb(255, 255, 255);
+            border: 0;
+            border: solid .25px rgb(177, 176, 176);
+            background: white;
         }
-        
+        .dots{
+            width: 30%;
+            margin: .5%;
+            height: 12%;
+            padding: 0;
+            border: solid .25px rgb(243, 240, 240);
+            background: rgb(115, 116, 115);
+            color: white;
+        }
+        .marks{
+            width: 30%;
+            margin: .5%;
+            height: 12%;
+            padding: 0;
+            border: 0;
+            background: rgb(199, 199, 193);
+        }
     </style>
 </head>
 <body>
@@ -61,24 +79,27 @@
             <input type="text" name="text-field" id="scrn">
         </div>
         <div id="grid-container">
-            <button class="grid-item">1</button>
-            <button class="grid-item">2</button>
-            <button class="grid-item">3</button>
-            <button class="grid-item">4</button>
-            <button class="grid-item">5</button>
-            <button class="grid-item">6</button>
-            <button class="grid-item">7</button>
-            <button class="grid-item">8</button>
-            <button class="grid-item">9</button>
-            <button class="grid-item">.</button>
-            <button class="grid-item">0</button>
-            <button class="grid-item">clear</button>
-            <button class="grid-item">+</button>
-            <button class="grid-item">-</button>
-            <button class="grid-item">/</button>
-            <button class="grid-item">x</button>
+            <button class="nums">1</button>
+            <button class="nums">2</button>
+            <button class="nums">3</button>
+            <button class="nums">4</button>
+            <button class="nums">5</button>
+            <button class="nums">6</button>
+            <button class="nums">7</button>
+            <button class="nums">8</button>
+            <button class="nums">9</button>
+            <button class="dots">.</button>
+            <button class="nums">0</button>
+            <button class="dots">clear</button>
+            <button class="marks">+</button>
+            <button class="marks">-</button>
+            <button class="marks">/</button>
+            <button class="marks">x</button>
             
         </div>
     </div>
+    <script>
+
+    </script>
 </body>
 </html>
