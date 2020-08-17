@@ -1,6 +1,7 @@
 body{
     background: #fff;
     font-family: 'Montserrat', sans-serif;
+    background-image: url(images/calwal.jpg);
 }
 #calculator-body{
     width: 18%;
