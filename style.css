@@ -30,6 +30,12 @@ body{
     margin: 0;
     height: 20%;
     margin-top: 10%;
+    ::-webkit-input-placeholder {
+        text-align: center;
+      }
+      :-moz-placeholder {
+        text-align: center;
+      }
 }
 #grid-container{
     padding: 2%;
