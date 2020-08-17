@@ -44,6 +44,7 @@ body{
     border: 0;
     border: solid .25px rgb(177, 176, 176);
     background: white;
+    border-radius: 10%;
 }
 .dots{
     width: 30%;
@@ -53,6 +54,7 @@ body{
     border: solid .25px rgb(243, 240, 240);
     background: rgb(115, 116, 115);
     color: white;
+    border-radius: 10%;
 }
 .marks{
     width: 30%;
@@ -61,4 +63,15 @@ body{
     padding: 0;
     border: 0;
     background: rgb(199, 199, 193);
+    border-radius: 10%;
+}
+.equal{
+    width: 63%;
+    margin: .5%;
+    height: 12%;
+    padding: 0;
+    border: 0;
+    background: rgb(243, 80, 5);
+    border-radius: 3%;
+    color: #fff;
 }
